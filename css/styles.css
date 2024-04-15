@@ -1,0 +1,94 @@
+:root {
+    --bg-color: #000000;
+    --secondary-bg-color: #87879865;
+    --primary-color: #fff;
+    --secondary-color: #25cc88;
+    --text-color: #25cc88;
+    --border-color: #ffffff;
+}
+#checkout-page {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+#order-form-container {
+    padding: 1.5em;
+
+}
+
+#novaMensagem input,
+#novaMensagem select {
+    background-color: var(--bg-color);
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+#novaMensagem select {
+    padding: 1rem 0.75rem;
+}
+
+#novaMensagem label {
+    color: var(--secondary-color);
+    left: 1em;
+}
+
+#novaMensagem input:disabled,
+#novaMensagem select:disabled {
+    background-color: var(--secondary-bg-color);
+    color: var(--text-color);
+}
+
+#novaMensagem input:focus {
+    border-color: var(--secondary-color);
+}
+
+#novaMensagem .form-floating>label {
+    left: 1em;
+}
+
+#save-btn {
+    background-color: #25cc88;
+    border: none;
+    height: 3em;
+    width: 8em;
+    border-radius: 1.4em;
+}
+
+#save-btn:focus {
+    outline: none;
+}
+
+#edit-btn {
+    background-color: #25cc88;
+    border: none;
+    height: 2em;
+    width: 4em;
+    border-radius: 1.4em;
+    color: white; 
+}
+
+#edit-btn:last-child {
+    margin-right: 0; 
+}
+
+#edit-btn:focus {
+    outline: none;
+}
+
+#delete-btn {
+    background-color: #25cc88;
+    border: none;
+    height: 2em;
+    width: 5em;
+    border-radius: 1.4em;
+    color: white;
+    margin-left: 30px;
+}
+
+#delete-btn:last-child {
+    margin-right: 0;
+}
+
+#delete-btn:focus {
+    outline: none;
+}
